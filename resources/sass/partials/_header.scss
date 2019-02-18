@@ -1,0 +1,43 @@
+header {
+  height: 70px;
+  width: 100%;
+  .cotainer{
+    height: 100%;
+  }
+  .header-left, .header-right {
+    float: left;
+    width: 50%;
+    height: 100%;
+  }
+  .header-left {
+    img {
+      margin-top: 10px;
+      height: 50px;
+    }
+  }
+  .header-right {
+    line-height: 70px;
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
+        margin: 0 10px;
+        a {
+          text-decoration: none;
+          color: $boolean_link;
+        }
+        .button {
+          padding: 10px 15px;
+          background: $boolean_button;
+          color: white;
+        }
+        .border {
+          width: 50px;
+          height: 3px;
+          background-color: #61ce4e;
+        }
+
+      }
+    }
+  }
+}

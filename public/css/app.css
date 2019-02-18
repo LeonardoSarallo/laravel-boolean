@@ -10660,3 +10660,54 @@ a.text-dark:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+header {
+  height: 70px;
+  width: 100%;
+}
+
+header .cotainer {
+  height: 100%;
+}
+
+header .header-left,
+header .header-right {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+header .header-left img {
+  margin-top: 10px;
+  height: 50px;
+}
+
+header .header-right {
+  line-height: 70px;
+}
+
+header .header-right ul {
+  list-style: none;
+}
+
+header .header-right ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header .header-right ul li a {
+  text-decoration: none;
+  color: #1b3c59;
+}
+
+header .header-right ul li .button {
+  padding: 10px 15px;
+  background: #fd8d53;
+  color: white;
+}
+
+header .header-right ul li .border {
+  width: 50px;
+  height: 3px;
+  background-color: #61ce4e;
+}
+
