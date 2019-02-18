@@ -2,34 +2,50 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-xs-3">
+      <div class="col-3">
         <img src="{{ asset('img/logo.png')}}" alt="">
       </div>
-      <div class="col-xs-3">
+      <div class="col-3">
         <ul>
           <li>
-            <a href="#"><span>ciao@boolean.careers</span></a>
+            <a href="#">
+              <div class="mail">
+                <span>
+                  ciao@boolean.careers
+                </span>
+              </div>
+            </a>
           </li>
           <li>
-            <a href="#"></a>
+            <a href="#">
+              <div class="phone">
+                <span>02-40031288</span>
+              </div>
+            </a>
           </li>
           <li>
-            <a href="#"></a>
+            <a href="#">
+              <div class="cell">
+                <span>
+                  +39 327-9578239
+                </span>
+              </div>
+            </a>
           </li>
         </ul>
       </div>
-      <div class="col-xs-3">
+      <div class="col-3">
         <ul>
           <li>
-            <a href="#"></a>
+            <a href="#">Privacy Policy</a>
           </li>
           <li>
-            <a href="#"></a>
+            <a href="#">Lavora con noi</a>
           </li>
         </ul>
       </div>
-      <div class="col-xs-3">
-        ciao
+      <div class="col-3">
+        <a href="#"></a>
       </div>
     </div>
 
