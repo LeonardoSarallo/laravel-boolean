@@ -1,4 +1,8 @@
 footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 400px;
   img {
     height: 60px;
   }
@@ -8,5 +12,20 @@ footer {
       text-decoration: none;
       color: $boolean_link;
     }
+
+  }
+  i {
+    font-size: 30px;
+    margin: 0 10px;
+  }
+}
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  background: $bluebackground;
+  span {
+    color: white;
   }
 }

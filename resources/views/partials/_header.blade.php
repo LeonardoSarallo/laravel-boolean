@@ -24,7 +24,7 @@
           <a href="#">Faq</a>
         </li>
         <li>
-          <a class="button"href="#">Iscriviti</a>
+          <a class="button" href="#">Iscriviti</a>
         </li>
       </ul>
     </div>

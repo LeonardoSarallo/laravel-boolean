@@ -8,10 +8,10 @@ class StaticPageController extends Controller
 {
   public function privacyPolicy()
   {
-    return view('privacyPolicy');
+    return view('privacy_policy');
   }
   public function lavoraConNoi()
   {
-    return view('lavoraConNoi');
+    return view('lavora_con_noi');
   }
 }
