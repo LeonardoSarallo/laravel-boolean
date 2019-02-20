@@ -17,11 +17,9 @@
         <li>
           <a href="#">Metodo</a>
         </li>
+        
         <li>
-          <a href="#">Dopo il corso</a>
-        </li>
-        <li>
-          <a href="#">Faq</a>
+          <a href="{{ route('students.index')}}">Studenti</a>
         </li>
         <li>
           <a class="button" href="#">Iscriviti</a>

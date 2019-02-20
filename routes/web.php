@@ -16,3 +16,8 @@
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/privacyepolicy', 'StaticPageController@privacyPolicy')->name('privacy_e_policy');
 Route::get('/lavoraconnoi', 'StaticPageController@lavoraConNoi')->name('lavora_con_noi');
+
+//Studenti
+
+Route::get('/studenti', 'StudentController@index')->name('students.index');
+Route::get('/studenti/{slug}', 'StudentController@show')->name('students.show');
