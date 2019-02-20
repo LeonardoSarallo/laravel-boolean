@@ -10727,6 +10727,10 @@ header .header-right ul li .border {
   margin-top: 60px;
 }
 
+.jumbo button {
+  margin-top: 50px;
+}
+
 footer {
   display: flex;
   align-items: center;
@@ -10776,7 +10780,7 @@ h4 {
 }
 
 .student {
-  margin: 40px auto;
+  margin-top: 150px;
   width: 400px;
   height: 80px;
   background: #1B3C59;
@@ -10809,5 +10813,9 @@ h4 {
 
 .student .student-right h3 {
   font-size: 18px;
+}
+
+.card {
+  margin: 100px auto;
 }
 

@@ -13,6 +13,19 @@ class StudentController extends Controller
     }
     public function show($slug)
     {
-      dd($slug);
+      $student = [];
+
+      foreach (config('students') as $showStudent) {
+        if ($showStudent['slug'] == $slug) {
+          $student = $showStudent;
+        }
+
+      }
+      if (empty($student))
+      {
+        return abort(404);
+      }
+      return view('students.show',compact('student'));
     }
+
 }
